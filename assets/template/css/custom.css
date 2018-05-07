@@ -1,0 +1,11 @@
+.error { 
+	color: #e17055;
+}
+
+em.error {
+	font-size: 14px;
+}
+
+input.error {
+	border-color: #e17055;
+}

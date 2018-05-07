@@ -21,6 +21,8 @@ $match = $route->match();
 
 if(!$match)
 {
-	die('Something went wrong!');
+	$app = new App\Http\Controller();
+	echo $app::$view->render('pages/404.html');
 }
+
 

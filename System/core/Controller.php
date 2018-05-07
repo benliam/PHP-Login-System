@@ -1,6 +1,5 @@
 <?php
 namespace App\Http;
-use App\Core\View\ViewBased;
 
 class Controller extends CoreApplication{
 
@@ -15,6 +14,8 @@ class Controller extends CoreApplication{
 	public static $view = null;
 
 	public static $viewLoader = null;
+
+	public $db;
 
 	/*-----------------------------------------------
 	| Model Class
@@ -31,6 +32,10 @@ class Controller extends CoreApplication{
 		self::$viewLoader = new \Twig_Loader_Filesystem(self::$TemplateDirectory);
 
 		self::$view = new \Twig_Environment(self::$viewLoader);	
+
+		$this->db = static::$DB;
+
+		$this->model = new Model;
 
 	}
 

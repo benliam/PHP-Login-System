@@ -25,7 +25,7 @@ define('DB_HOST', 'localhost'); // MYSQL Hostname
 
 define('DB_USERNAME', 'root'); // MYSQL Username
 
-define('DB_PASSWORD', 'admin123'); // MYSQL Password
+define('DB_PASSWORD', 'admin@123'); // MYSQL Password
 
 define('DB_NAME', 'project1'); // Database name
 

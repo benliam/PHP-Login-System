@@ -18,6 +18,8 @@ error_reporting(DEBUGGING);
 
 require_once __DIR__ . '/core/Database.php';
 
+require_once __DIR__ . '/core/Model.php';
+
 require_once __DIR__ . '/core/View.php';
 
 require_once __DIR__ . '/core/Controller.php';

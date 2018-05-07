@@ -23,7 +23,7 @@ class Routes {
 	/**
 	 * @var array Array of all named routes.
 	 */
-	protected $namedRoutes = array();
+	public $namedRoutes = array();
 
 	/**
 	 * @var string Can be used to ignore leading part of the Request URL (if main file lives in subdirectory of host)
